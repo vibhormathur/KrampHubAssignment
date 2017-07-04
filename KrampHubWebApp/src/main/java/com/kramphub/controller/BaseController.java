@@ -2,7 +2,6 @@ package com.kramphub.controller;
 
 import java.text.DateFormat;
 import java.util.Date;
-import java.util.List;
 import java.util.Locale;
 
 import org.slf4j.LoggerFactory;
@@ -16,13 +15,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.kramphub.component.Component;
-import com.kramphub.component.impl.Albums;
-import com.kramphub.component.impl.Books;
-import com.kramphub.entity.RespEntity;
-import com.kramphub.response.Response;
-import com.kramphub.response.ResponseData;
+
 
 /**
  * System controller that processes the request control.

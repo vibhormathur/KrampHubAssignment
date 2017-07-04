@@ -14,8 +14,6 @@ import com.kramphub.response.Response;
 import com.kramphub.response.ResponseData;
 
 public class ControllerHelper {
-	private final static org.slf4j.Logger logger = LoggerFactory.getLogger(ControllerHelper.class);
-
 	public String callComponents(String term, Integer limit) throws JsonProcessingException{
 		Response response = new Response();
 		ResponseData respData = new ResponseData();
